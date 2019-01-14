@@ -13,14 +13,8 @@ Quick guide
 just type
 
 ```
-gem install stopwords-filter
-```
-
-or
-
-```
 # Don't forget the 'require:'
-gem 'stopwords-filter', require: 'stopwords'
+gem 'stopwords-filter', git: 'git@github.com:Yevhenii-Kushvid/stopwords-filter.git', require: 'stopwords'
 ```
 
 in your Gemfile.
